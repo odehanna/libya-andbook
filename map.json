@@ -1,0 +1,55 @@
+{
+	"mapwidth":"1600",
+	"mapheight":"1600",
+	"categories":[
+
+	],
+	"levels":[
+	{
+		"id":"map",
+		"map":"images/map.svg",
+		"locations":
+		[
+			{
+				"id":"isis",
+				"action":"tooltip",
+				"link":"#",
+				"x":"0.351875",
+				"y":"0.48625",
+				"pin":"red",
+				"zoom": "4"
+			},
+			{
+				"id":"libya",
+				"action":"tooltip",
+				"link":"#",
+				"x":"0.274375",
+				"y":"o.525",
+				"pin":"red",
+				"zoom": "4"
+			},
+			{
+				"id":"tunisia",
+				"action":"tooltip",
+				"link":"#",
+				"x":"0.21",
+				"y":"0.490625",
+				"pin":"red",
+				"zoom": "4"
+			},
+			{
+				"id":"flintlock",
+				"action":"tooltip",
+				"link":"#",
+				"x":"0.255",
+				"y":"0.59375",
+				"pin":"red",
+				"zoom": "4"
+			}
+		]
+		}
+	],
+	"minimap":"false",
+	"sidebar":"false",
+	"zoomlimit":"4"
+}

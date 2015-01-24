@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Libya Handbook | SecDev Foundation</title>
+
+		<!-- Viewport for Responsivity -->
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="Libya Handbook Map">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/map.css">
+		<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+		<!-- Internet Explorer -->
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="mapplic/mapplic-ie.css">
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div id="bar">
+			<img class="img-flex small-screen" src="images/mobile-bar.png" alt="Libya Handbook">
+			<img class="img-flex big-screen" src="images/sidebar.png" alt="Libya Handbook">
+		</div>
+
+					<!-- Map -->
+						<div id="mapplic"></div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/hammer.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="mapplic/mapplic.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#mapplic').mapplic({
+					source: 'map.json',
+					height: 494,
+					sidebar: false,
+					minimap: true,
+					locations: false,
+					animate: true;
+					deeplinking: true,
+					fullscreen: false,
+					hovertip: true,
+					developer: false,
+					maxscale: 3
+				});
+			});
+		</script>
+	</body>
+</html>
