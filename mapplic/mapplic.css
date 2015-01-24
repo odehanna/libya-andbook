@@ -20,7 +20,7 @@ svg a {
 .mapplic-element * { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 
 .mapplic-element {
-	background-color: #f8f8f8;
+	background-color: #494949;
 	font-size: 0;
 	overflow: hidden;
 }
