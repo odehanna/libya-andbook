@@ -57,12 +57,12 @@ svg a {
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
-	width: 70%;
+	width: 100%;
 	height: 100%;
 }
 
 :-webkit-full-screen .mapplic-container {
-	width: 80%;
+	width: 100%;
 }
 
 .mapplic-map {
@@ -145,30 +145,7 @@ svg a {
 }
 
 .mapplic-minimap img {
-	width: 100%;
-}
-
-.mapplic-minimap-overlay {
-	background-color: rgba(0, 0, 0, 0.5);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-
-.mapplic-minimap .mapplic-minimap-active {
-	position: absolute;
-	opacity: 1;
-	top: 0;
-	left: 0;
-	-webkit-transition: clip 0.1s;
-	-moz-transition: clip 0.1s;
-	transition: clip 0.1s;
-}
-
-.mapplic-minimap-background {
-	-webkit-filter: blur(2px);
+display: none;
 }
 
 /* Clear Button */
