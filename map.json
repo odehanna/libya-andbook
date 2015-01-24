@@ -8,6 +8,7 @@
 	{
 		"id":"map",
 		"map":"images/map.svg",
+		"color": "#494949",
 		"locations":
 		[
 			{
