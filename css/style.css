@@ -86,13 +86,20 @@ div.mapplic-container{
 	height: 100% !important;
 }
 
-#footer{
-	background-color: #fff;
-	position:relative;
+/* Footer */
+#footer {
+	background-color: #2f2e2b;
+	padding: 60px 0;
+	text-align: center;
 }
 
-.inner{
-	position: absolute;
-	bottom: 0;
-	left: 0;
+#footer span a {
+	border-bottom: 1px solid transparent;
+	color: #aaa;
+	transition: color 0.2s, border-color 0.2s;
+}
+
+#footer span a:hover {
+	border-color: #666;
+	color: #eee;
 }
