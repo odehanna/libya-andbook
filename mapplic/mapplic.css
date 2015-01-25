@@ -226,7 +226,7 @@ display: none;
 
 /* Tooltip */
 .mapplic-tooltip {
-	background-color: #494949;
+	background-color: #fff;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 	display: none;
 	max-width: 280px;
