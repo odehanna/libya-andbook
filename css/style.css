@@ -71,3 +71,7 @@ img {
 	font-family: 'PT Sans';
 	margin: 0 auto;
 }
+
+div#mapplic.mapplic-element{
+	height: 100% !important;
+}
