@@ -133,16 +133,6 @@ svg a {
 .mapplic-pin.blue { background-image: url(images/pin-blue.png); }
 .mapplic-pin.purple { background-image: url(images/pin-purple.png); }
 
-/* Minimap */
-.mapplic-minimap {
-	border: 1px solid rgba(0, 0, 0, 0.4);
-	position: absolute;
-	width: 140px;
-	margin: 10px;
-	bottom: 0;
-	right: 0;
-	overflow: hidden;
-}
 
 .mapplic-minimap img {
 display: none;
