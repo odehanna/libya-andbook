@@ -510,11 +510,11 @@ display: none;
 	}
 
 	.mapplic-minimap {
-		width: 80px;
+		display: none;
 	}
 
 	.mapplic-element {
-		height: auto !important;
+		height: 100% !important;
 	}
 
 	.mapplic-fullscreen-button {
