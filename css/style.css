@@ -28,9 +28,9 @@ img {
 }
 
 #bar{
-	display: block;
-	position: relative;
-	overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #map-position{
