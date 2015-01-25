@@ -85,3 +85,7 @@ div#mapplic.mapplic-element,
 div.mapplic-container{
 	height: 100% !important;
 }
+
+#footer{
+	background-color: #fff;
+}
