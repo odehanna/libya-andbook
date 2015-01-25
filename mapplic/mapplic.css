@@ -109,11 +109,19 @@ svg a {
 	background-image: url(images/pin-red.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 70px;
-	height: 70px;
+	width: 30px;
+	height: 30px;
 	margin-top: -25px;
 	margin-left: -10px;
 	position: absolute;
+}
+
+@media (min-width: 800px){
+.mapplic-pin {
+	width: 70px;
+	height: 70px;
+
+}
 }
 
 .mapplic-pin.mapplic-animate {
