@@ -339,7 +339,8 @@ display: none;
 		display: none;
 	}
 }
-div.mapplic-container{
+div.mapplic-container,
+div#mapplic.mapplic-element{
 	width:100% !important;
 	height:100% !important;
 }
