@@ -9,7 +9,7 @@
 		"id":"map",
 		"map":"images/map.svg",
 		"color": "#494949",
-		"zoom": "4",
+		"zoom": "9",
 		"locations":
 		[
 			{
