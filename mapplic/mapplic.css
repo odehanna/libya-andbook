@@ -37,7 +37,7 @@ svg a {
 
 /* Preloader */
 .mapplic-element.mapplic-loading {
-	background: #f8f8f8 url(images/loader.gif) no-repeat center;
+	background: #494949 url(images/loader.gif) no-repeat center;
 }
 
 .mapplic-element > * {
@@ -53,7 +53,7 @@ svg a {
 
 /* Main elements */
 .mapplic-container {
-	background-color: #f8f8f8;
+	background-color: #494949;
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
@@ -168,7 +168,7 @@ display: none;
 
 /* Levels */
 .mapplic-levels {
-	background-color: #fff;
+	background-color: #494949;
 	position: absolute;
 	top: 0;
 	right: 0;
