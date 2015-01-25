@@ -70,6 +70,8 @@ img {
 .map-container {
 	font-family: 'PT Sans';
 	margin: 0 auto;
+	width: 100% !important;
+	height: 100% !important;
 }
 
 div#mapplic.mapplic-element{
