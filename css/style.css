@@ -27,20 +27,7 @@ img {
  	max-width: 100%
 }
 
-#bar{
-	position: relative;
-}
 
-#map-position{
-	position: absolute;
-	overflow: hidden;
-	top: 65px;
-	right: 0;
-	bottom: 0;
-	left: -20px;
-	margin: 0;
-	z-index:-1;
-}
 
 .big-screen{
 	display: none;
