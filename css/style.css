@@ -29,6 +29,7 @@ img {
 
 #bar{
 	position: relative;
+	overflow: hidden;
 }
 
 #map-position{
