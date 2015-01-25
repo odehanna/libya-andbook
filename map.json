@@ -24,13 +24,8 @@
 				"id":"libya",
 				"action":"tooltip",
 				"link":"#",
-<<<<<<< Updated upstream
-				"x":"0.274375",
-				"y":"0.525",
-=======
 				"x":"0.245",
 				"y":"0.520625",
->>>>>>> Stashed changes
 				"pin":"red",
 				"zoom": "6"
 			},
