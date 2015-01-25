@@ -240,7 +240,7 @@ display: none;
 }
 
 /* Responsive layout */
-@media all and (max-width: 479px) {
+@media all and (max-width: 240px) {
 	.mapplic-container,
 	.mapplic-sidebar {
 		width: 100%;
