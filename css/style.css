@@ -67,10 +67,10 @@ img {
 
 @media (min-width: 1000px){
 	.big-screen{
-	 max-width: 450px;
+	 max-width: 400px;
 }
 
-@media (min-width: 1800px){
+@media (min-width: 2000px){
 	.big-screen{
 	 max-width: 564px;
 }
