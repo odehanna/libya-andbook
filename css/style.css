@@ -74,6 +74,7 @@ img {
 	height: 100% !important;
 }
 
-div#mapplic.mapplic-element{
+div#mapplic.mapplic-element,
+div.mapplic-container{
 	height: 100% !important;
 }
