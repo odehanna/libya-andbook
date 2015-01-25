@@ -190,7 +190,7 @@ display: none;
 }
 
 .mapplic-levels a {
-	background-color: #fff;
+	background-color: #494949;
 	background-repeat: no-repeat;
 	background-position: center;
 	border: none;
@@ -214,93 +214,6 @@ display: none;
 	cursor: default;
 }
 
-/* Sidebar */
-.mapplic-sidebar {
-	background-color: #f8f8f8;
-	width: 30%;
-	height: 100%;
-	float: left;
-	position: relative;
-}
-
-/* List */
-.mapplic-list-container {
-	padding-top: 66px;
-	height: 100%;
-	overflow-y: auto;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
-.mapplic-list-category > a {
-	background-color: #aaa;
-	color: #fff;
-	display: block;
-	font-size: 16px;
-	line-height: 26px;
-	padding: 12px 12px 12px 12px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	box-sizing: border-box;
-}
-
-.mapplic-list-category ol {
-	border-bottom: 3px solid #eee !important;
-}
-
-.mapplic-list-thumbnail {
-	border-radius: 2px;
-	float: left;
-	margin-right: 10px;
-}
-
-.mapplic-list-category > a .mapplic-list-count {
-	background-color: rgba(0, 0, 0, 0.1);
-	border-radius: 2px;
-	float: right;
-	font-size: 12px;
-	line-height: 20px;
-	padding: 0 6px;
-	margin-left: 10px;
-	text-align: center;
-	margin-top: 4px;
-}
-
-.mapplic-list-location > a {
-	background-color: #fff;
-	border-left: 2px solid transparent;
-	border-bottom: 1px solid #eee;
-	display: block;
-	font-size: 14px;
-	padding: 10px;
-	min-height: 50px;
-	-webkit-transition: border-color 0.2s;
-	-moz-transition: border-color 0.2s;
-	transition: border-color 0.2s;
-}
-
-.mapplic-list-location > a:hover {
-	background-color: #f4fcfc;
-	border-left: 2px solid;
-	border-color: inherit;
-	border-bottom: 1px solid #eee;
-}
-
-.mapplic-list-location h4 {
-	color: #444;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 4px 0 8px 0;
-}
-
-.mapplic-list-location span {
-	color: #bbb;
-	font-size: 13px;
-	font-weight: normal;
-}
 
 /* Tooltip */
 .mapplic-tooltip {
