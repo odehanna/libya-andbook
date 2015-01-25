@@ -5,7 +5,7 @@
 	 viewBox="0 0 1600 1600" enable-background="new 0 0 1600 1600" xml:space="preserve">
 	 <style type="text/css">
 	svg .state {
-	fill: #989899;
+	fill: #b5b5b5;
 	stroke:#fff;
 	stroke-width:1;
 	stroke-opacity:1;
