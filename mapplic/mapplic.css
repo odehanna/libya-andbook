@@ -109,8 +109,8 @@ svg a {
 	background-image: url(images/pin-red.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 30px;
-	height: 30px;
+	width: 100px;
+	height: 100px;
 	margin-top: -25px;
 	margin-left: -10px;
 	position: absolute;
