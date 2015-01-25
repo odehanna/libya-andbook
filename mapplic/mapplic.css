@@ -223,74 +223,6 @@ display: none;
 	position: relative;
 }
 
-:-webkit-full-screen .mapplic-sidebar {
-	width: 20%;
-}
-
-/* Search */
-.mapplic-search-form {
-	background-color: #f8f8f8;
-	border-bottom: 1px solid #ddd;
-	padding: 14px 12px;
-	margin: 0;
-	width: 100%;
-	position: absolute;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.mapplic-search-input {
-	background-image: url(images/viewer.png);
-	background-repeat: no-repeat;
-	background-position: 8px;
-	border: 2px solid #eee;
-	border-radius: 2px;
-	font-size: 14px;
-	font-family: inherit;
-	line-height: 20px;
-	height: 38px;
-	margin: 0;
-	padding: 8px 32px;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-
-	-webkit-transition: border-color 0.1s;
-	-moz-transition: border-color 0.1s;
-	transition: border-color 0.1s;
-}
-
-.mapplic-search-input:focus {
-	border-color: #6ed8dd;
-}
-
-.mapplic-search-clear {
-	background-image: url(images/cross.png);
-	background-repeat: no-repeat;
-	background-color: transparent;
-	background-position: center;
-	border: none;
-	cursor: pointer;
-	display: none;
-	position: absolute;
-	right: 22px;
-	margin: 10px 0;
-	width: 16px;
-	height: 16px;
-}
-
-.mapplic-not-found {
-	color: #bbb;
-	display: none;
-	font-size: 13px;
-	padding: 0 30px;
-	position: absolute;
-	text-align: center;
-	top: 100px;
-}
-
 /* List */
 .mapplic-list-container {
 	padding-top: 66px;
@@ -301,23 +233,6 @@ display: none;
 	box-sizing: border-box;
 }
 
-.mapplic-list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	overflow-y: auto;
-	height: 100%;
-}
-
-.mapplic-list-container ol {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.mapplic-list-container li {
-	border-color: inherit;
-}
 
 .mapplic-list-category > a {
 	background-color: #aaa;
