@@ -15,7 +15,7 @@
 				"id":"isis",
 				"action":"tooltip",
 				"link":"#",
-				"x":"0.72",
+				"x":"0.71",
 				"y":"0.18",
 				"pin":"red",
 				"zoom": "4"
@@ -24,7 +24,7 @@
 				"id":"libya",
 				"action":"tooltip",
 				"link":"#",
-				"x":"0.525625",
+				"x":"0.50",
 				"y":"0.246875",
 				"pin":"red",
 				"zoom": "4"
@@ -33,7 +33,7 @@
 				"id":"tunisia",
 				"action":"tooltip",
 				"link":"#",
-				"x":"0.43",
+				"x":"0.42",
 				"y":"0.18",
 				"pin":"red",
 				"zoom": "4"
@@ -42,7 +42,7 @@
 				"id":"flintlock",
 				"action":"tooltip",
 				"link":"#",
-				"x":"0.486875",
+				"x":"0.45",
 				"y":"0.33",
 				"pin":"red",
 				"zoom": "4"
