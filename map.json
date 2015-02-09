@@ -13,15 +13,13 @@
 		[
 			{
 				"id":"isis",
-				"action":"tooltip",
 				"x":"0.71",
-				"y":"0.1857",
+				"y":"0.17",
 				"pin":"red"
 			},
 			{
 				"id":"libya",
-				"action":"tooltip",
-				"x":"0.50",
+				"x":"0.45",
 				"y":"0.2634",
 				"pin":"red"
 			},
