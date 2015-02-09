@@ -25,7 +25,7 @@
 				"action":"tooltip",
 				"link":"#",
 				"x":"0.50",
-				"y":"0.26",
+				"y":"0.28",
 				"pin":"red",
 				"zoom": "4"
 			},
@@ -42,8 +42,8 @@
 				"id":"flintlock",
 				"action":"tooltip",
 				"link":"#",
-				"x":"0.45",
-				"y":"0.36",
+				"x":"0.46",
+				"y":"0.38",
 				"pin":"red",
 				"zoom": "4"
 			}
