@@ -496,8 +496,8 @@
 			}
 
 			self.map.css({
-				'width': '100%',
-				'height': '100%'
+				'width': data.mapwidth,
+				'height': data.mapheight
 			});
 
 			// Create minimap
@@ -637,19 +637,19 @@
 			level(shownLevel);
 
 			// Browser resize
-			$(window).resize(function() {
-				var wr = self.container.width() / self.contentWidth,
-					hr = self.container.height() / self.contentHeight;
+			// $(window).resize(function() {
+			// 	var wr = self.container.width() / self.contentWidth,
+			// 		hr = self.container.height() / self.contentHeight;
 
-				if (wr > hr) self.fitscale = wr;
-				else self.fitscale = hr;
+			// 	if (wr > hr) self.fitscale = wr;
+			// 	else self.fitscale = hr;
 
-				self.scale = normalizeScale(self.scale);
-				self.x = normalizeX(self.x);
-				self.y = normalizeY(self.y);
+			// 	self.scale = normalizeScale(self.scale);
+			// 	self.x = normalizeX(self.x);
+			// 	self.y = normalizeY(self.y);
 
-				moveTo(self.x, self.y, self.scale, 100);
-			}).resize();
+			// 	moveTo(self.x, self.y, self.scale, 100);
+			// }).resize();
 
 			// Deeplinking
 			if (self.o.deeplinking) {
@@ -895,8 +895,8 @@
 				self.map.stop().animate({
 					'left': x,
 					'top': y,
-					// 'width': self.contentWidth * scale,
-					// 'height': self.contentHeight * scale
+					'width': self.contentWidth * scale,
+					'height': self.contentHeight * scale
 				}, d, easing);
 			}
 			else {
