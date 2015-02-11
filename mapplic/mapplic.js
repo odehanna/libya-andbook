@@ -559,7 +559,7 @@
 								if (value.action == 'redirect') target = value.link;
 
 								// var pin = $('<a></a>').attr('href', target).addClass('mapplic-pin').css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
-								var pin = $('<a></a>').css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
+								var pin = $('<a></a>').addClass('mapplic-pin-alternate').css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
 								pin.attr('data-location', value.id);
 								pin.addClass(value.pin);
 							}
