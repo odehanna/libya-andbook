@@ -96,7 +96,7 @@
 					this.desc.html(location.description);
 
 					// Shift
-					var pinselect = $('.mapplic-pin[data-location="' + location.id + '"]');
+					var pinselect = $('.mapplic-pin-alternate[data-location="' + location.id + '"]');
 					if (pinselect.length == 0) {
 						this.shift = 6;
 					}
@@ -130,7 +130,7 @@
 					this.desc.html(location.description);
 
 					// Shift
-					var pinselect = $('.mapplic-pin[data-location="' + location.id + '"]');
+					var pinselect = $('.mapplic-pin-alternate[data-location="' + location.id + '"]');
 					if (pinselect.length == 0) {
 						this.shift = 6;
 					}
@@ -222,7 +222,7 @@
 				// Events
 				$(self.map).on('mouseover', '.mapplic-layer a', function() {
 					var data = '';
-					if ($(this).hasClass('mapplic-pin')) {
+					if ($(this).hasClass('mapplic-pin-alternate')) {
 						data = $(this).data('location');
 						s.shift = $(this).height() + 6;
 					}
@@ -558,7 +558,8 @@
 								var target = '#' + value.id;
 								if (value.action == 'redirect') target = value.link;
 
-								var pin = $('<a></a>').attr('href', target).addClass('mapplic-pin').css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
+								// var pin = $('<a></a>').attr('href', target).addClass('mapplic-pin').css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
+								var pin = $('<a></a>').addClass('mapplic-pin-alternate').css({'top': top + '%', 'left': left + '%'}).appendTo(layer);
 								pin.attr('data-location', value.id);
 								pin.addClass(value.pin);
 							}
@@ -573,12 +574,12 @@
 
 			// Pin animation
 			if (self.o.animate) {
-				$('.mapplic-pin').css('opacity', '0');
+				$('.mapplic-pin-alternate').css('opacity', '0');
 				window.setTimeout(animateNext, 200);
 			}
 
 			function animateNext() {
-				var select = $('.mapplic-pin:not(.mapplic-animate):visible');
+				var select = $('.mapplic-pin-alternate:not(.mapplic-animate):visible');
 
 				//console.log('enter');
 
@@ -588,7 +589,7 @@
 				}
 				else {
 					$('.mapplic-animate').removeClass('mapplic-animate');
-					$('.mapplic-pin').css('opacity', '1');
+					$('.mapplic-pin-alternate').css('opacity', '1');
 				}
 			}
 
@@ -640,11 +641,8 @@
 				var wr = self.container.width() / self.contentWidth,
 					hr = self.container.height() / self.contentHeight;
 
-				// if (wr > hr){
-				// 	self.fitscale = wr;
-				// }	else {
-				// 	self.fitscale = hr;
-				// }
+				if (wr > hr) self.fitscale = wr;
+				else self.fitscale = hr;
 
 				self.scale = normalizeScale(self.scale);
 				self.x = normalizeX(self.x);
