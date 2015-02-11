@@ -96,7 +96,7 @@
 					this.desc.html(location.description);
 
 					// Shift
-					var pinselect = $('.mapplic-pin[data-location="' + location.id + '"]');
+					var pinselect = $('.mapplic-pin-alternate[data-location="' + location.id + '"]');
 					if (pinselect.length == 0) {
 						this.shift = 6;
 					}
@@ -130,7 +130,7 @@
 					this.desc.html(location.description);
 
 					// Shift
-					var pinselect = $('.mapplic-pin[data-location="' + location.id + '"]');
+					var pinselect = $('.mapplic-pin-alternate[data-location="' + location.id + '"]');
 					if (pinselect.length == 0) {
 						this.shift = 6;
 					}
@@ -222,7 +222,7 @@
 				// Events
 				$(self.map).on('mouseover', '.mapplic-layer a', function() {
 					var data = '';
-					if ($(this).hasClass('mapplic-pin')) {
+					if ($(this).hasClass('mapplic-pin-alternate')) {
 						data = $(this).data('location');
 						s.shift = $(this).height() + 6;
 					}
@@ -574,12 +574,12 @@
 
 			// Pin animation
 			if (self.o.animate) {
-				$('.mapplic-pin').css('opacity', '0');
+				$('.mapplic-pin-alternate').css('opacity', '0');
 				window.setTimeout(animateNext, 200);
 			}
 
 			function animateNext() {
-				var select = $('.mapplic-pin:not(.mapplic-animate):visible');
+				var select = $('.mapplic-pin-alternate:not(.mapplic-animate):visible');
 
 				//console.log('enter');
 
@@ -589,7 +589,7 @@
 				}
 				else {
 					$('.mapplic-animate').removeClass('mapplic-animate');
-					$('.mapplic-pin').css('opacity', '1');
+					$('.mapplic-pin-alternate').css('opacity', '1');
 				}
 			}
 
