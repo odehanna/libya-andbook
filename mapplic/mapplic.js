@@ -640,8 +640,11 @@
 				var wr = self.container.width() / self.contentWidth,
 					hr = self.container.height() / self.contentHeight;
 
-				if (wr > hr) self.fitscale = wr;
-				else self.fitscale = hr;
+				// if (wr > hr){
+				// 	self.fitscale = wr;
+				// }	else {
+				// 	self.fitscale = hr;
+				// }
 
 				self.scale = normalizeScale(self.scale);
 				self.x = normalizeX(self.x);
