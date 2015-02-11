@@ -496,8 +496,8 @@
 			}
 
 			self.map.css({
-				'width': data.mapwidth,
-				'height': data.mapheight
+				'width': '100%',
+				'height': '100%'
 			});
 
 			// Create minimap
