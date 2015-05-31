@@ -12,7 +12,7 @@
 
 			svg a .state {
 				fill: #6d6d6d;
-				opacity: 0;
+				opacity: 0.9;
 				transition: opacity .15s;
 			}
 
