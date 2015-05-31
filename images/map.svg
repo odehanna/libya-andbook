@@ -4,15 +4,15 @@
 	 viewBox="0 0 1224 792" enable-background="new 0 0 1224 792" xml:space="preserve">
 	 	 <style type="text/css">
 			svg .state {
-				fill: #565656;
+				fill: #989899;
 				stroke:#fff;
 				stroke-width:0.75;
-				stroke-opacity:0;
+				stroke-opacity:1;
 			}
 
 			svg a .state {
-				fill: #231F20 ;
-				opacity: 1;
+				fill: #6d6d6d;
+				opacity: 0.6;
 				transition: opacity .15s;
 			}
 
