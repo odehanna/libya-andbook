@@ -105,10 +105,6 @@ img {
 }
 
 
-@media (min-width: 1800px){
-	.big-screen{
-	 max-width: 564px;
-}
 
 /* Map */
 .map-container {
