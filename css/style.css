@@ -105,7 +105,32 @@ img {
 }
 
 
+@media (min-width: 1800px){
+	.big-screen{
+	 max-width: 564px;
+}
+.text1{
+	position: absolute;
+	top: 300px;
+	right: 0;
+	bottom: 0;
+	left: 28px;
+	margin: 0;
+	font-size: 0.9rem;
+	line-height: 1.3;
+}
+.text2{
+	position: absolute;
+	top: 450px;
+	right: 0;
+	bottom: 0;
+	left: 28px;
+	margin: 0;
+	font-size: 0.9rem;
+	line-height: 1.3;
+}
 
+}
 /* Map */
 .map-container {
 	font-family: 'PT Sans';
