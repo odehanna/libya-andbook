@@ -15,24 +15,28 @@
 				"id":"isis",
 				"title": "Москва",
 				"description": "<p>Москва.</p>",
+				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
 				"x":"0.68",
 				"y":"0.37",
 				"pin":"red"
 			},
 			{
 				"id":"libya",
+				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
 				"x":"0.5",
 				"y":"0.438",
 				"pin":"red"
 			},
 			{
 				"id":"tunisia",
+				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
 				"x":"0.4378",
 				"y":"0.3658",
 				"pin":"red"
 			},
 			{
 				"id":"lake_chad_basin",
+				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
 				"x":"0.470",
 				"y":"0.52",
 				"pin":"red"
