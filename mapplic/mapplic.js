@@ -18,7 +18,7 @@
 			search: false,
 			clearbutton: false,
 			hovertip: true,
-			fullscreen: true,
+			fullscreen: false,
 			developer: false,
 			animate: true,
 			maxscale: 4
@@ -217,7 +217,6 @@
 				// Construct
 				this.el = $('<div></div>').addClass('mapplic-tooltip mapplic-hovertip');
 				this.title = $('<h4></h4>').addClass('mapplic-tooltip-title').appendTo(this.el);
-				this.link = $('<a>More</a>').addClass('mapplic-tooltip-link').attr('href', '#').attr('target', '_blank').hide().appendTo(this.el);
 				$('<div></div>').addClass('mapplic-tooltip-triangle').appendTo(this.el);
 
 				// Events
