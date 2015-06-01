@@ -6,14 +6,19 @@ a img {
 	border: none;
 }
 
-.im-minimap {
-	border: 1px solid #666;
+.mapplic-coordinates {
+	background-color: #fff;
 }
 
-.im-minimap-overlay {
+.mapplic-minimap-overlay {
 	background-image: url(images/alpha50.png);
 }
 
-.im-list-category > a span {
+.mapplic-minimap-active {
+	position: absolute;
+	/*clip: rect(0px,60px,40px,0px);*/
+}
+
+.mapplic-list-category > a span {
 	background-image: url(images/alpha20.png);	
 }
