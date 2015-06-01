@@ -13,28 +13,28 @@
 		[
 			{
 				"id":"isis",
-				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
+				"link": "#",
 				"x":"0.68",
 				"y":"0.37",
 				"pin":"red"
 			},
 			{
 				"id":"libya",
-				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
+				"link": "#",
 				"x":"0.5",
 				"y":"0.436",
 				"pin":"red"
 			},
 			{
 				"id":"tunisia",
-				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
+				"link": "#",
 				"x":"0.4378",
 				"y":"0.3658",
 				"pin":"red"
 			},
 			{
 				"id":"lake_chad_basin",
-				"link": "http://en.wikipedia.org/wiki/Washington_(state)",
+				"link": "#",
 				"x":"0.470",
 				"y":"0.507",
 				"pin":"red"
